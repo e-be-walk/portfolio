@@ -56,6 +56,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   font-family: 'Asul', sans-serif;
+    color: #f9f9ec;
   display: block;
 }
 
@@ -64,7 +65,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #f9f9ec;
   text-align: left;
   background-color: #fff;
 }
@@ -109,6 +110,7 @@ address {
 ol,
 ul,
 dl {
+  color: #e7e7b1;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -163,14 +165,14 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #f9f9ec;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #ededc5;
   text-decoration: underline;
 }
 
@@ -223,7 +225,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #f9f9ec;
   text-align: left;
   caption-side: bottom;
 }
@@ -438,7 +440,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #f9f9ec;
 }
 
 .list-unstyled {
@@ -487,7 +489,7 @@ mark,
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #f9f9ec;;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -3959,6 +3961,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
+    color: #f9f9ec;
   text-decoration: none;
 }
 
@@ -3983,6 +3986,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-text {
+  color: #f9f9ec;
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -4285,11 +4289,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #f3f3d8;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #e7e7b1;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -4308,7 +4312,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #f3f3d8;
 }
 
 .navbar-dark .navbar-toggler {
@@ -4325,11 +4329,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: #f9f9ec;
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #e7e7b1;
 }
 
 .card {
@@ -6096,17 +6100,17 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #63425f !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: #63425f !important;
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #f3f3d8 !important;
 }
 
 .bg-transparent {
